@@ -17,6 +17,7 @@ unzip ngrok-stable-linux-arm.zip
 mv ngrok /$HOME
 rm -rf ngrok-stable-linux-arm.zip
 mv npc01 /data/data/com.termux/files/usr/bin
+cd ../../usr/bin
 chmod +x npc01
 cd
 cd ../usr/etc
